@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+.body{
+    display: grid;
+    background: black;
+    height: 100%;
+      width: 100%;
+    align-items: center;
+}
+
+
+.contbox {
+  width: 660px;
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  gap: 10%;
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+}
+
+.phone{
+  margin: auto;
+  align-items: center;
+  border-width: 1px;
+  height: 530px;
+  width: 270px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 70px;
+  box-shadow: 0px 0px 11px 2px #ffffff;
+  rotate: 270deg;
+  animation: rotate-once .3s linear forwards;
+}
+
+.phone-in{
+
+  border-width: 1px;
+  height: 500px;
+  width: 245px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 70px;
+  margin: 10px;;
+
+}
+
+.phone-img{
+  height: 36px;
+  width: 170px;
+  margin-top: 220px;
+  margin-left: 35px;
+}
+
+
+.conttext{
+  position: relative;
+  margin: auto;
+  width: fit-content; 
+  color: white;
+  text-align: center;
+}
+
+.trispace{
+  font-weight: bold;
+  font-family: 'Trispace', sans-serif;
+  text-align: left;
+  animation: appear .25s linear forwards;
+}
+.spacemono{
+  font-family: 'Space Mono', monospace;
+  text-align: left;
+  color: #d7d7d7;
+  animation: appear .3s linear forwards;
+}
+
+.gtsitebtn{
+  border-radius: 10px;
+  width: 120px;
+  height: 45px;
+  background-color: white;
+  border:white;
+  box-shadow: 0px 0px 11px 2px #ffffff;
+  font-family: 'Trispace', sans-serif;
+  animation: appear .35s linear forwards;
+  text-decoration: none;
+}
+
+@media screen and (max-width:1196px) {
+  
+  .conttext{
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  .contbox{
+    width: fit-content;
+  }
+
+  .spacemono{
+    text-align: center;
+  }
+
+  .trispace{
+    text-align: center;
+  }
+}
+
+@keyframes rotate-once {
+  0% {
+    transform: rotate(0) scale(0);
+  }
+
+  85%{
+    transform: rotate(90deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotate(85deg) scale(1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    transform:  scale(0);
+  }
+
+  80%{
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform:  scale(1);
+  }
+}
