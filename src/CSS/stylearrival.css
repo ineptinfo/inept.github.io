@@ -70,7 +70,7 @@
 
 .trispace{
   font-weight: bold;
-  font-family: 'Trispace', sans-serif;
+  font-family: 'Trispace';
   text-align: left;
   animation: appear .25s linear forwards;
 }
@@ -88,7 +88,7 @@
   background-color: white;
   border:white;
   box-shadow: 0px 0px 11px 2px #ffffff;
-  font-family: 'Trispace', sans-serif;
+  font-family: 'Trispace';
   animation: appear .35s linear forwards;
   text-decoration: none;
 }

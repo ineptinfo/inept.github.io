@@ -96,7 +96,7 @@
 
 
 .trispace{
-    font-family: 'Trispace', sans-serif;
+    font-family: 'Trispace';
     color: white;
 }
 .spacemono{
@@ -141,7 +141,7 @@ header{
 .navbar a{
     color: white;
     text-decoration: none;
-    font-family: 'Trispace', sans-serif
+    font-family: 'Trispace'
 }
 
 .navbar .logo{
@@ -292,7 +292,7 @@ header{
         background-color: white;
         border:white;
         box-shadow: 0px 0px 11px 2px #ffffff;
-        font-family: 'Trispace', sans-serif;
+        font-family: 'Trispace';
         animation: appear .35s linear forwards;
         text-decoration: none;
         font-size: 90%;
@@ -647,7 +647,7 @@ form{
     border:rgb(0, 0, 0);
     box-shadow: 0px 0px 10px 1px #000000;
     margin-top: 2.5vw;
-    font-family: 'Trispace', sans-serif;
+    font-family: 'Trispace';
     animation: appear .35s linear forwards;
     text-decoration: none;
     font-size: 90%;
