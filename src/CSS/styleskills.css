@@ -362,7 +362,7 @@ body{
 
 
 .trispace{
-    font-family: 'Trispace';
+   font-family: 'Space Mono', monospace;
 }
 .spacemono{
     font-family: 'Space Mono', monospace;
@@ -384,7 +384,7 @@ body{
 .navbar a{
     color: white;
     text-decoration: none;
-    font-family: 'Trispace', sans-serif
+    font-family: 'Space Mono', monospace;
 }
 
 .navbar .logo{
