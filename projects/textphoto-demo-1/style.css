@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .dilin{
+    font-family: "pp_hatton",sans-serif;
+    color: #574d4d;
+  }
+
+  body {
+    font-family: "product sans", sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+        background-color: #fefef2;
+  }
+  .parallax-panel {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: 	#fefef2; /* Set the background color to black */
+  }
+  
+  .parallax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .parallax-text h1 {
+    font-size: 70px;
+  }
+  
+  
+  .man {
+    background-color: #000000;
+    height: fit-content;
+    width: fit-content;
+  }
+  .navbar {
+    margin-top: 50px;
+    background-color:	#ec303092;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-family: 'beyond_the_mountains';
+  }
+  
+  .navbar-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .navbar-button {
+    background-color: white;
+    color: green;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  p {
+    color: white;
+    font-size: 10px;
+    line-height: 1;
+    background-image: url(./bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px */
+    body {
+      height: auto;
+    }
+  }
+  
