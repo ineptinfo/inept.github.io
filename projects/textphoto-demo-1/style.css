@@ -80,11 +80,3 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
-  @media screen and (max-width: 768px) {
-    /* Styles for screens up to 768px */
-    body {
-      height: auto;
-    }
-  }
-  
